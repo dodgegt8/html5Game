@@ -2,7 +2,7 @@
 
 class Game{
 	constructor(){
-	console.log('Welcome to the Count Game. Version ${this.version()}');
+	console.log(`Welcome to the Count Game. Version ${this.version()}`);
 	}
 	version(){
 		return '1.0.0';
